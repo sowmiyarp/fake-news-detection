@@ -1,9 +1,13 @@
 # Fake News Detection using Machine Learning
 
-This project focuses on detecting fake news articles using machine learning and natural language processing (NLP) techniques.
+This project focuses on detecting fake news articles using Machine Learning and
+Natural Language Processing (NLP) techniques. The goal is to classify news content
+as **Real** or **Fake** based on textual information.
 
 ## Overview
-Fake news detection is an important real-world problem in the digital age. This project applies machine learning models to classify news articles as real or fake based on textual content.
+Fake news detection is a critical problem in today’s digital era. This project
+applies NLP techniques and machine learning models to analyze news articles and
+predict their authenticity.
 
 ## Technologies Used
 - Python
@@ -11,16 +15,27 @@ Fake news detection is an important real-world problem in the digital age. This 
 - Natural Language Processing (NLP)
 - Scikit-learn
 - Pandas, NumPy
+- Streamlit
 
 ## Features
-- Text preprocessing (tokenization, cleaning)
-- Feature extraction using NLP techniques
+- Text preprocessing and cleaning
+- Feature extraction using TF-IDF
 - Machine learning model training and evaluation
-- News classification
+- Fake news classification
+
+## Dataset
+The dataset used for training the model consists of fake and real news articles.
+
+Due to GitHub file size limitations, the full dataset is **not included** in this
+repository. Users can reproduce the results by using publicly available fake news
+datasets or by providing their own dataset in the same format.
+
 
 ## Project Status
-The project is currently implemented and tested locally. Further improvements and deployment are planned.
+The project is implemented and tested locally. Future improvements may include
+deployment and further model optimization.
 
 ## Author
-Sowmiya Prakash
+**Sowmiya Prakash**  
+
 
